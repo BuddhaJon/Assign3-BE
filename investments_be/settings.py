@@ -146,8 +146,10 @@ SIMPLE_JWT = {
 
 CORS_ORIGIN_WHITELIST = (
     'https://localhost:8080',
-    'https://127.0.0.1:8080'
+    'https://127.0.0.1:8080',
+    'https://assign3-fe-delta.vercel.app'
 )
+
 CORS_ORIGIN_ALLOW_ALL = True
 
 import os
